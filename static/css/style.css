@@ -1,0 +1,256 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #e3e6e6;
+
+    color: #111;
+}
+
+
+
+
+.top-navbar {
+
+    height: 65px;
+
+    background-color: #131921;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    padding: 8px 18px;
+
+}
+
+
+
+
+.logo {
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    white-space: nowrap;
+
+}
+
+
+.logo span {
+
+    font-size: 18px;
+
+}
+
+
+/* =========================================
+   LOCATION
+========================================= */
+
+.location {
+
+    display: flex;
+
+    flex-direction: column;
+
+    white-space: nowrap;
+
+}
+
+
+.location small {
+
+    color: #cccccc;
+
+    font-size: 12px;
+
+}
+
+
+.location strong {
+
+    font-size: 14px;
+
+}
+
+
+
+
+.search-box {
+
+    height: 42px;
+
+    display: flex;
+
+    flex: 1;
+
+    max-width: 750px;
+
+}
+
+
+.search-box select {
+
+    width: 55px;
+
+    border: none;
+
+    background-color: #e6e6e6;
+
+    border-radius: 5px 0 0 5px;
+
+}
+
+
+.search-box input {
+
+    flex: 1;
+
+    border: none;
+
+    outline: none;
+
+    padding: 0 15px;
+
+    font-size: 16px;
+
+}
+
+
+.search-box button {
+
+    width: 55px;
+
+    border: none;
+
+    background-color: #febd69;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    border-radius: 0 5px 5px 0;
+
+}
+
+
+
+
+.language {
+
+    white-space: nowrap;
+
+    font-weight: bold;
+
+}
+
+
+
+
+.account,
+.orders {
+
+    display: flex;
+
+    flex-direction: column;
+
+    white-space: nowrap;
+
+}
+
+
+.account small,
+.orders small {
+
+    color: #cccccc;
+
+    font-size: 12px;
+
+}
+
+
+.account strong,
+.orders strong {
+
+    font-size: 14px;
+
+}
+
+
+
+
+.cart {
+
+    font-size: 17px;
+
+    white-space: nowrap;
+
+}
+
+
+
+
+.second-navbar {
+
+    height: 42px;
+
+    background-color: #232f3e;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    padding: 0 20px;
+
+    font-size: 14px;
+
+    overflow: hidden;
+
+}
+
+
+.second-navbar div {
+
+    white-space: nowrap;
+
+}
+
+
+
+
+main {
+
+    padding: 30px;
+
+    background-color: white;
+
+    margin: 20px;
+
+}
+
+
+main h1 {
+
+    margin-bottom: 10px;
+
+}
